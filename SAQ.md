@@ -21,7 +21,7 @@
     - Names can not contain whitespaces or special characters.
     - Reserved words cannot be used as names.
 
-->Data Types
+-> Data Types
     - int (2 or 4 bytes) (%d or %i) (unsigned int only works with positive numbers)
     - float (4 bytes) (%f)
     - double (8 bytes) (%lf)
@@ -32,5 +32,4 @@
     - long long int (8 byte) (%lld)
     - long double (16 byte) (%Lf)
 
-->
-    - 
+-> Instead of writing many if else blocks, switch can be used. Switch uses many blocks to be executed upon case verification.
