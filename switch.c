@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 /*
+    int expression = "x";
     switch (expression) {
         case x:
             // code block

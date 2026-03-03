@@ -33,3 +33,6 @@
     - long double (16 byte) (%Lf)
 
 -> Instead of writing many if else blocks, switch can be used. Switch uses many blocks to be executed upon case verification.
+
+
+-> continue skips over the particular iteration while break exits the loop completely;
