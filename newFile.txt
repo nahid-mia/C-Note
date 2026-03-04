@@ -1,0 +1,4 @@
+Some new text in the notepad
+since using "W" will mean that previous writing is overwritten
+Hello World!
+Hello World!

@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
 
 void addNumbers(int a, int b)
 {
@@ -17,7 +19,7 @@ void multiplyNumbers(int a, int b)
 
 void divideNumbers(int a, int b)
 {
-    printf("The quotient is %d\n", a / b);
+    printf("The quotient is %.2f\n", (float)a / b);
 }
 
 void calculate(void (*callback)(int, int), int x, int y)
