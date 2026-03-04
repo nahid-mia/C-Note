@@ -39,3 +39,7 @@
 
 
 -> Memory address is created when a variable is created. we can see the memory address by using pointer variable. and we can use printf("%p", &variable_name) to see the memory address. this memory can be manipulated to shorten the code and more efficient coding. (& is  called he reference operator) (* is called dereference operator)
+
+
+
+-> void function() - means that this function does not return anything.
