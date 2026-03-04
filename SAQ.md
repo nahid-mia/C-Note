@@ -35,4 +35,7 @@
 -> Instead of writing many if else blocks, switch can be used. Switch uses many blocks to be executed upon case verification.
 
 
--> continue skips over the particular iteration while break exits the loop completely;
+-> continue skips over the particular iteration while break exits the loop completely.
+
+
+-> Memory address is created when a variable is created. we can see the memory address by using pointer variable. and we can use printf("%p", &variable_name) to see the memory address. this memory can be manipulated to shorten the code and more efficient coding. (& is  called he reference operator) (* is called dereference operator)
