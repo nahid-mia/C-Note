@@ -43,3 +43,11 @@
 
 
 -> void function() - means that this function does not return anything.
+
+
+-> Recursion is when a function call itself in order to solve a smaller version of a problem.
+
+
+
+-> Function Pointer is pointer to a function, it stores the address of the function thus
+allowing us to call that function using the pointer, it also helps to pass a function as an argument to another function.
