@@ -27,6 +27,7 @@ void calculate(void (*callback)(int, int), int x, int y)
     callback(x, y);
 }
 
+
 int main()
 {
     int num1, num2;

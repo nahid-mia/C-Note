@@ -51,3 +51,29 @@
 
 -> Function Pointer is pointer to a function, it stores the address of the function thus
 allowing us to call that function using the pointer, it also helps to pass a function as an argument to another function.
+
+
+
+-> Unions are the same as structures however union can only store one variable value at at a time. This is used only to save memory.
+
+
+-> In structs the memory as saved as a partition of 4 bytes
+    - Let's say, I have arranged char c, int n, char b,
+    - Logically the struct should have taken 1 + 4 + 1 bytes
+    - However it takes 1 + 3 + 4 + 1 + 3
+    - Those 3 bytes are extra paddings to make a partition of 4 bytes
+    - So, if we arrange int myNum, char c, char b
+    - Then we will only use 8 bytes 4 + 1 + 1 + 2
+    - Why was there no padding between between char ?
+    because char can take values of bytes 1, so it doesn't need any more alignment
+
+
+-> The header file creation method is in calc.c calc.h and main.c
+
+-> When a variable is declared in another file then,
+    - The file it is getting used in uses "extern int shared" like declaration
+    - This means that int shared in declared here but it is defined in another file
+    - and to run many files together we have to use
+    - gcc firstFileName secondFileName ...... -o outputName
+
+
